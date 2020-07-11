@@ -2,11 +2,11 @@
 
 ## General Overview:
 Our final project for my graphical model AI class. To grossly simplify, we use graphical models to try and estimate
-the skill level of each pro starcaft player. This is done by simply getting a players win/loss ratio of ever other player, 
-then through that ratio we place that player in 0 of 5 continuous skill levels (like a less complex version of ELO).
-After arranging all players into their respective skill levels, we pit all players against each other in hypothetical
-matches, and, using the probability of their skill difference, determine a winner. Since we have validation data we can
-check whether our graphical model was right or wrong in choosing the correct winner.
+the skill level of each pro starcaft player. This is done by getting a players win/loss ratio of ever other player, 
+then through that ratio we place that player in any skill level 0-5 (like a less complex version of ELO).
+After arranging all players into their respective skill levels, we use validation data to play out matches, and let the 
+graphical model give us the hypothetical winner. We then check to see if its correct, and measure the correctness of the 
+graphical model.
 
 ## In Depth:
 
